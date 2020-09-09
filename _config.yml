@@ -5,7 +5,7 @@ permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
-
+paginate: "5"
 # Layout
 
 sidebar: true               # show a sidebar instead of the usual header
@@ -17,7 +17,7 @@ show_title: true            # always keep the site title visible
 # Styling
 
 dark_header: true           # always keep the header dark
-minimal: true               # use simpler style
+minimal: false               # use simpler style
 
 # Menu
 
@@ -36,3 +36,4 @@ comments:
 
 plugins:
  - jekyll-feed
+ - jekyll-paginate
