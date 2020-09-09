@@ -25,7 +25,10 @@
 
 <header class="icons">
   {% unless site.show_title != true and site.navigation and site.external %}
-    <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
+    <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}  <img src="https://www.jackbaude.com/img/profilesq-min.jpg" style="height: 2em;
+      border-radius: 2em; transform: translateY(1em);"/></a>
+  
+
   {% endunless %}
   {% if site.navigation or site.external %}
     {% include menu.html menu=site.navigation icons=false %}
